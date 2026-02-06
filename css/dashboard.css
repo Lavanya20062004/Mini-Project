@@ -1,0 +1,54 @@
+body {
+  background: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h2, h4 {
+  color: #333;
+}
+
+#complaintForm {
+  background: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+#complaintForm input, #complaintForm textarea {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#complaintForm button {
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+#complaintList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.status-pending {
+  background: #ffc107;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.status-resolved {
+  background: #28a745;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
